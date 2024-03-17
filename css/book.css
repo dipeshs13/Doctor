@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.book_container{
+    padding: 30px;
+}
+.content{
+    /* border:2px solid black; */
+    min-height: 80%;
+    border-radius: 50px;
+    box-shadow: 0px 4px 15px 3px rgba(0,0,0,0.1);
+}
+.book_content{
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* flex-direction: row; */
+    /* border: 2px solid black; */
+    margin-left: 25%;
+    margin-top: 40px;
+
+}
+.doctor_img{
+    margin-top: 80px;
+    margin-right: 30px;
+}
+.info{
+    margin-left: 20px;
+    margin-top: 50px;
+    line-height: 40px;
+    font-size: 20px;
+}
+.appointment{
+    padding: 10px;
+    border: none;
+    border-radius: 90px;
+    background-color: green;
+    color: #fff;
+}
+.appointment:hover{
+    border: 2px solid black;
+
+}
+.appointment>a{
+    text-decoration: none;
+    color: #fff;
+}
+.info>a{
+    text-decoration: none;
+    background-color: green;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 15px;
+    padding:10px;
+    width: 10px;
+}
+a:hover{
+    border: 2px solid black;
+}
+.review{
+    /* border: 2px solid black; */
+    padding: 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.review_form{
+    /* border: 2px solid black; */
+    margin: 10px;
+    padding: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+textarea{
+    width: 100%;
+    display: block;
+    padding: 0 50px;
+    border-radius: 30px;
+    resize: none;
+    /* overflow-x: hidden; */
+    /* min-width: 200px; */
+    /* height: 10px; */
+}
+.review_form button{
+    margin-top: 5px;
+    border: none;
+    padding: 10px 30px;
+    background-color: green;
+    color: #fff;
+    border-radius: 90px;
+    margin-left: 85%;
+    
+}
+
+#review_section h2{
+    text-align: center;
+}
